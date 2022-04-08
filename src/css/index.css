@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  color: white;
+  user-select: none;
+}
+
+fieldset {
+  display: inline-block;
+}
+
+.bbutton {
+  background-color: cadetblue;
+  color: black;
+  padding: 10px 4px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.bbutton:active {
+  background-color: olive;
+  box-shadow: 0 1px #111111;
+}
+
+label > input {
+  display: none;
+}
+
+label > input[type="date"] {
+  display: inline-block;
+}
+
+.pactive {
+  background-color: greenyellow;
+}
+
+input[type=checkbox] {
+  display: inline-block;
+}
+
+span.total {
+  display: table;
+}
+
+fieldset.module {
+  border: 5px double #ffffff;
+  padding: 10px;
+}
+
+fieldset.ue {
+  vertical-align: top;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+}
+
+main > div{
+  width: 98%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+h2{ text-align: center; }
+
+input[type="text"], input[type="tel"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.options {
+  margin: auto 20px;
+  display: inline-block;
+}
+
+div.options {
+  position: fixed;
+}

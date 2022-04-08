@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Commander</title>
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/index.css" />
+  <script type="text/javascript" src="js/script.js" async defer></script>
+  <script type="text/javascript" src="js/toastr.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Commander</h1>
+  <label for="json" class="options">
+    <p>Raw json</p>
+    <textarea id="json" name="json" required style="margin: 0px; width: 323px; height: 324px;">[]</textarea>
+  </label>
+  <label for="result" class="options">
+    <p>Result</p>
+    <textarea id="result" name="result" style="margin: 0px; width: 323px; height: 324px;" readonly></textarea>
+  </label>
+  <div class="options">
+    <p>Options</p>
+    <input id="guild_id" name="guild_id" type="tel" placeholder="Guild ID(Optional)"></input>
+    <input id="token" name="token" type="text" placeholder="Token(Optional)"></input>
+  </div>
+  <br />
+  <button id="make" class="bbutton">Get code!</button>
+  <br />
+  <button id="run" class="bbutton">Run it</button>
+</body>
+</html>
